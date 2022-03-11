@@ -1,6 +1,5 @@
 library(quantmod)
 library(shiny)
-#install.packages("shinydashboard")
 library(shinydashboard)
 
 SYMBOLS <- stockSymbols()
