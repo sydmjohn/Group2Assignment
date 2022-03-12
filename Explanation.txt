@@ -1,0 +1,15 @@
+Feature 1 Write-up: 
+	In this feature, it explores ticker names through a company drop down menu search. You can begin to type a company name, the company will appear. The user only needs to click the company title. The ticker name will appear on the line below. This feature also allows the user to take the ticker name and the amount of months provided on the slider, and it will display a table with 5 rows of open, high, low, close, volume, and adjusted of that particular stock. This feature will allow the user to not only find the stock ticker but also display that stock up to 100 months in the past.
+
+
+Feature 2 Write-up: 
+	In the second feature, we decided we want to be able to pick a stock ticker and have a graph showing their information popup upon picking a company. We created a dropdown menu of certain tickers and then from there we made our app show a ggplot based on a range of dates and would show the fluctuation in price over these certain times. We thought this feature was beneficial, because depending on what stock you want to see, you are able to easily select one from the drop down menu and get a graph showing the fluctuation of prices. This allows the user to easily open the app and see a well laid out dashboard, that they can go to the dropdown menu and select a ticker and get relevant information regarding the selected stock.  
+
+
+Feature 3 Write-up:
+The third feature is used to forecast stock pricing through ARIMA. Closed stock prices are kept so the time series is univariate. A log transformation was performed to depict the growth rate of stocks. A stock can be selected, as well as how many years in the future are forecasted. This allows users the ability to examine how a stock is forecasted to perform based on ARIMA, as it is capable of predicting share market movements and other time series forecasts.
+
+
+Feature 4 Write-up:
+	For our fourth feature, we created a way for people to pick from a list of stocks, choose the date, and get the opening and closing prices from that day. For this feature we chose to list the top ten companies with the highest stock prices. We made a radio button list with those top ten companies, and date input to pick what day. There are two stacked output boxes that display the opening and closing prices. We thought this would be a useful feature so that people are able to easily see what each specific stock was at, and if/how it changed on any given day.
+
